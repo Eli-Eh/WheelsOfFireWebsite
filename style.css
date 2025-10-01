@@ -1,0 +1,23 @@
+:root{
+	--black:#100;
+	--orange:#960;
+}
+
+*{
+	color: #fff;
+}
+
+body{
+	margin: 0;
+	background-color: var(--black);
+}
+
+.inBox{
+	background-color: var(--orange);
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.inBox a{
+	padding-left:20px;
+}

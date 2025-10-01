@@ -1,23 +1,28 @@
+/* Defines variables for the colours used here. */
 :root{
 	--black:#100;
 	--orange:#960;
 }
 
+/* Turns all text white. */
 *{
 	color: #fff;
 }
 
+/* Remove border from body tag, as well as setting the background to be black-ish. */
 body{
 	margin: 0;
 	background-color: var(--black);
 }
 
+/* Makes all elements with the inBox class have an orange background, as well as a bit of padding. */
 .inBox{
 	background-color: var(--orange);
 	padding-top: 10px;
 	padding-bottom: 5px;
 }
 
+/* Extra padding to make the text on the side-by-side links readable. */
 .inBox a{
 	padding-left:20px;
 }
